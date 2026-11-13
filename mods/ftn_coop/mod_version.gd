@@ -1,6 +1,6 @@
 extends RefCounted
 
-const DOWNLOAD_URL := "https://github.com/GaleR-Tech/FTN-Coop/releases"
+const DOWNLOAD_URL := "https://github.com/GaleR-Tech/Find-the-Needl-Demo-Multipalyer/releases"
 
 static func safe_version(value: Variant) -> String:
 	if not value is String or value.length()>40: return ""

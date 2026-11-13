@@ -10,7 +10,7 @@ import zipfile
 
 import linux_core as core
 
-GITHUB = "https://github.com/GaleR-Tech/FTN-Coop"
+GITHUB = "https://github.com/GaleR-Tech/Find-the-Needl-Demo-Multipalyer"
 COFFEE = "https://buymeacoffee.com/galertech"
 TEXT = {
     "title": ("Find The Needle · Koop · Linux", "Find The Needle · Co-op · Linux"),

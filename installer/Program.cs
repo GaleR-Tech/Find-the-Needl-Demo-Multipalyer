@@ -17,15 +17,15 @@ using Microsoft.Win32;
 
 [assembly: AssemblyTitle("FTN-Coop Setup")]
 [assembly: AssemblyProduct("FTN-Coop")]
-[assembly: AssemblyVersion("0.7.2.0")]
-[assembly: AssemblyFileVersion("0.7.2.0")]
+[assembly: AssemblyVersion("0.7.3.0")]
+[assembly: AssemblyFileVersion("0.7.3.0")]
 
 internal enum SetupLanguage { German, English }
 
 internal static class Program
 {
-    internal const string CurrentVersion = "0.7.2";
-    internal const string ProjectUrl = "https://github.com/GaleR-Tech/FTN-Coop";
+    internal const string CurrentVersion = "0.7.3";
+    internal const string ProjectUrl = "https://github.com/GaleR-Tech/Find-the-Needl-Demo-Multipalyer";
     internal const string SupportUrl = "https://buymeacoffee.com/galertech";
 
     internal sealed class InstallationInfo

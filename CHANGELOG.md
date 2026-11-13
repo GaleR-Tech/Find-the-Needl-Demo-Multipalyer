@@ -1,5 +1,17 @@
 # Changelog / Änderungen
 
+## 0.7.3 · 2026-11-13
+
+### English
+
+- The F2 update check, download links and Windows and Linux installers use the renamed GitHub repository.
+- Download this update from Releases if you are on 0.7.2. All players must install 0.7.3 and restart.
+
+### Deutsch
+
+- Die F2-Updateprüfung, die Download-Links und die Installer für Windows und Linux nutzen das umbenannte GitHub-Repository.
+- Wer 0.7.2 nutzt, lädt dieses Update über die Release-Seite herunter. Alle müssen 0.7.3 installieren und neu starten.
+
 ## 0.7.2 · 2026-10-29
 
 ### English

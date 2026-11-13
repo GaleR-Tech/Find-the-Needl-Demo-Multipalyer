@@ -1,4 +1,4 @@
-# FTN-Coop · 0.7.2
+# FTN-Coop · 0.7.3
 
 [English](#english) · [Deutsch](#deutsch)
 
@@ -8,7 +8,9 @@ An independent, unofficial co-op mod for **Find The Needle Demo** (Windows; Linu
 One host and up to three friends work in the same world. Money, research,
 hay, buildings and needles belong to the shared session.
 
-Version **0.7.2** adds support for Demo V71 (build 26260645). Guest conveyor and building visibility updates continue while world simulation stays on the host. Native shadow visibility follows each guest's camera. Reliable Steam messages bypass the optional SDK send timer. Everyone must install 0.7.2 and restart.
+Version **0.7.3** updates the GitHub address used by the F2 update check, the download links and both installers. Download this update from Releases if you are on 0.7.2. All players must install 0.7.3 and restart.
+
+Version **0.7.2** adds support for Demo V71 (build 26260645). Guest conveyor and building visibility updates continue while world simulation stays on the host. Native shadow visibility follows each guest's camera. Reliable Steam messages bypass the optional SDK send timer.
 
 **Development status: Internet play between different Steam accounts is still
 unverified.** Local checks use real demo instances, but do not replace a test
@@ -16,7 +18,7 @@ with friends over Steam. Demo builds **26260645 (V71)** and **25963876 (V66)**
 are supported. All players in a session must use the same game build.
 The full game and other game updates require a new compatibility check.
 
-**Download:** [Installer and ZIP on the Releases page](https://github.com/GaleR-Tech/FTN-Coop/releases).
+**Download:** [Installer and ZIP on the Releases page](https://github.com/GaleR-Tech/Find-the-Needl-Demo-Multipalyer/releases).
 You do not need to work with source code to play.
 
 If you enjoy the mod, you can support its development with a coffee:
@@ -52,7 +54,7 @@ content continues to use its own language settings.
 
 New in 0.1.3: The installer has a dark interface with gold accents. It shows the installed and package versions and selects the matching action. The progress indicator stays indeterminate while files are being processed; completion is only shown after the result is known. The **GitHub project** link opens the source repository in your browser.
 
-The easiest option is **FTN-Coop-0.7.2-Setup.exe**:
+The easiest option is **FTN-Coop-0.7.3-Setup.exe**:
 
 1. Close the game and double-click the EXE.
 2. Check the automatically detected demo folder, or select it using **Browse…**.
@@ -82,7 +84,7 @@ settings and other mod files into account.
 
 ### Linux installation (Ubuntu / Mint)
 
-New in **0.4.0**: download **FTN-Coop-0.7.2-Linux.run** from Releases.
+New in **0.4.0**: download **FTN-Coop-0.7.3-Linux.run** from Releases.
 This single file includes the installer and all mod files. It needs **Python 3.8
 or later**, with **python3-tk** for the optional graphical window; no pip packages
 are required. Close the demo before installing, updating or removing the mod.
@@ -92,7 +94,7 @@ are required. Close the demo before installing, updating or removing the mod.
 2. In a terminal, change to the folder containing the downloaded file and run:
 
    ```sh
-   python3 FTN-Coop-0.7.2-Linux.run
+   python3 FTN-Coop-0.7.3-Linux.run
    ```
 
 3. Check the detected demo folder, or select it using **Browse**. Click **Install**
@@ -103,7 +105,7 @@ are required. Close the demo before installing, updating or removing the mod.
 If the graphical window is unavailable, use the terminal interface:
 
 ```sh
-python3 FTN-Coop-0.7.2-Linux.run --cli
+python3 FTN-Coop-0.7.3-Linux.run --cli
 ```
 
 For a specific folder, use `--install --game-dir "/path/to/Find The Needle Demo"`;
@@ -120,7 +122,7 @@ binaries, saves and unrelated mods are kept. The installer downloads nothing.
 **Verification limit:** filesystem, package and GUI tests were run on the Windows
 development computer. Execution on Ubuntu/Mint, the graphical desktop integration,
 Proton gameplay and Windows/Linux multiplayer still require a real Linux test.
-All participants must use **0.7.2** and the same supported demo build. Internet play
+All participants must use **0.7.3** and the same supported demo build. Internet play
 between separate Steam accounts remains unverified.
 
 V71 was tested locally with a copy of old slot 3 (374 buildings), one host and three guests. The final 120-second run without graphics passed with 165 actions per guest, median 131 ms and per-guest p95 208–232 ms. A second 120-second run with one graphical guest and three processes without graphics also passed: median 131 ms, per-guest p95 200–246 ms, matching world revisions and one world load per guest. Three guest hay views passed native visibility/LOD checks and visual inspection. An isolated 3.2-second action delay remains; performance is improved, not fully resolved. Two earlier checks with four graphical windows ended in a Windows bluescreen and a full-PC freeze; their cause remains unresolved. Four simultaneous graphical instances, Steam Internet latency and Linux/Proton stability remain unverified.
@@ -216,7 +218,7 @@ nothing is downloaded or installed automatically. Checks are limited to once
 per minute. Offline/rate-limit errors leave play available. Player names,
 Steam IDs, lobby identifiers, local paths, reports and saves are not included.
 
-0.7.2: [Downloads and release notes](https://github.com/GaleR-Tech/FTN-Coop/releases/tag/v0.7.2). Internet play between separate
+0.7.3: [Downloads and release notes](https://github.com/GaleR-Tech/Find-the-Needl-Demo-Multipalyer/releases/tag/v0.7.3). Internet play between separate
 Steam accounts remains unverified.
 
 ### Save and leave
@@ -277,7 +279,9 @@ Eigene, inoffizielle Koop-Mod für **Find The Needle Demo** (Windows; Linux-Inst
 Ein Host und bis zu drei Freunde arbeiten in derselben Welt. Geld, Forschung,
 Heu, Gebäude und Nadeln gehören zur gemeinsamen Sitzung.
 
-Version **0.7.2** unterstützt Demo V71 (Build 26260645). Sichtbarkeitsaktualisierungen für Förderbänder und Gebäude laufen beim Gast weiter, während die Spielwelt ausschließlich beim Host simuliert wird. Die nativen Schatten folgen der jeweiligen Gastkamera. Zuverlässige Steam-Nachrichten umgehen den optionalen Sendetimer des SDK. Alle müssen 0.7.2 installieren und neu starten.
+Version **0.7.3** aktualisiert die GitHub-Adresse für die F2-Updateprüfung, die Download-Links und beide Installer. Wer 0.7.2 nutzt, lädt dieses Update über die Release-Seite herunter. Alle müssen 0.7.3 installieren und neu starten.
+
+Version **0.7.2** unterstützt Demo V71 (Build 26260645). Sichtbarkeitsaktualisierungen für Förderbänder und Gebäude laufen beim Gast weiter, während die Spielwelt ausschließlich beim Host simuliert wird. Die nativen Schatten folgen der jeweiligen Gastkamera. Zuverlässige Steam-Nachrichten umgehen den optionalen Sendetimer des SDK.
 
 **Entwicklungsstand: Internetbetrieb zwischen verschiedenen Steam-Konten ist
 noch unbestätigt.** Die lokalen Prüfungen verwenden echte Demo-Instanzen,
@@ -286,7 +290,7 @@ Demo-Build **26260645 (V71)** und **25963876 (V66)**. Alle Spieler einer Sitzung
 brauchen denselben Spiel-Build. Die Vollversion und andere Spielupdates
 benötigen eine erneute Prüfung.
 
-**Download:** [Installer und ZIP unter Releases](https://github.com/GaleR-Tech/FTN-Coop/releases).
+**Download:** [Installer und ZIP unter Releases](https://github.com/GaleR-Tech/Find-the-Needl-Demo-Multipalyer/releases).
 Zum Spielen ist kein Umgang mit dem Quellcode nötig.
 
 Wenn dir die Mod gefällt, kannst du die Entwicklung mit einem Kaffee unterstützen:
@@ -319,7 +323,7 @@ der Demo selbst folgen weiterhin deren eigenen Spracheinstellungen.
 
 Neu in 0.1.3: Der Installer hat eine dunkle Oberfläche mit goldenen Akzenten. Er zeigt installierte und enthaltene Version sowie die passende Hauptaktion. Die Fortschrittsanzeige bleibt während der Verarbeitung unbestimmt; ein Abschluss erscheint erst nach dem tatsächlichen Ergebnis. **GitHub-Projekt** öffnet das Quellcode-Repository im Browser.
 
-Am einfachsten mit **FTN-Coop-0.7.2-Setup.exe**:
+Am einfachsten mit **FTN-Coop-0.7.3-Setup.exe**:
 
 1. Das Spiel schließen und die EXE doppelklicken.
 2. Den automatisch gefundenen Demo-Ordner prüfen oder über **Ordner …** auswählen.
@@ -346,7 +350,7 @@ und andere Mod-Dateien werden bei der Entfernung berücksichtigt.
 
 ### Linux-Installation (Ubuntu / Mint)
 
-Neu in **0.4.0**: **FTN-Coop-0.7.2-Linux.run** unter Releases herunterladen.
+Neu in **0.4.0**: **FTN-Coop-0.7.3-Linux.run** unter Releases herunterladen.
 Die einzelne Datei enthält den Installer und alle Mod-Dateien. Benötigt werden
 **Python 3.8 oder neuer** und für das optionale Fenster **python3-tk**; zusätzliche
 pip-Pakete sind nicht nötig. Demo vor Installation, Update oder Entfernung schließen.
@@ -356,7 +360,7 @@ pip-Pakete sind nicht nötig. Demo vor Installation, Update oder Entfernung schl
 2. Im Terminal in den Download-Ordner wechseln und starten:
 
    ```sh
-   python3 FTN-Coop-0.7.2-Linux.run
+   python3 FTN-Coop-0.7.3-Linux.run
    ```
 
 3. Erkannten Demo-Ordner prüfen oder über **Ordner auswählen** ändern. **Installieren**
@@ -368,7 +372,7 @@ pip-Pakete sind nicht nötig. Demo vor Installation, Update oder Entfernung schl
 Ohne grafisches Fenster steht die Terminal-Oberfläche bereit:
 
 ```sh
-python3 FTN-Coop-0.7.2-Linux.run --cli
+python3 FTN-Coop-0.7.3-Linux.run --cli
 ```
 
 Einen bestimmten Ordner mit `--install --game-dir "/pfad/zu/Find The Needle Demo"`
@@ -386,7 +390,7 @@ und andere Mods bleiben erhalten. Der Installer lädt nichts nach.
 **Prüfgrenze:** Datei-, Paket- und Oberflächentests liefen auf dem Windows-
 Entwicklungsrechner. Ausführung unter Ubuntu/Mint, Desktop-Integration,
 Proton-Spielbetrieb und gemeinsame Windows/Linux-Sitzungen benötigen noch einen
-echten Linux-Test. Alle Teilnehmer brauchen **0.7.2** und denselben unterstützten Demo-Build.
+echten Linux-Test. Alle Teilnehmer brauchen **0.7.3** und denselben unterstützten Demo-Build.
 Internetspiel zwischen getrennten Steam-Konten bleibt unbestätigt.
 
 V71 wurde lokal mit einer Kopie des alten Spielstands 3 (374 Gebäude), einem Host und drei Gästen geprüft. Der abschließende 120-Sekunden-Lauf ohne Grafik bestand mit 165 Aktionen je Gast, einem Median von 131 ms und je Gast 208–232 ms für 95 % der Aktionen. Ein weiterer 120-Sekunden-Lauf mit einem grafischen Gast und drei Instanzen ohne Grafik bestand ebenfalls: Median 131 ms, je Gast 200–246 ms für 95 % der Aktionen, übereinstimmende Weltstände und genau ein Weltladen je Gast. Drei Gast-Heuansichten bestanden die nativen Sichtbarkeits-/Detailstufenprüfungen und die Bildkontrolle. Eine einzelne Aktionsverzögerung von 3,2 Sekunden bleibt; die Performance ist verbessert, aber nicht vollständig behoben. Zwei frühere Prüfungen mit vier Grafikfenstern endeten in einem Windows-Bluescreen und einem vollständig eingefrorenen PC; die Ursache ist offen. Vier gleichzeitige Grafikinstanzen, Steam-Internetlatenz und Linux-/Proton-Stabilität bleiben ungeprüft.
@@ -490,7 +494,7 @@ pro Minute möglich. Ohne Verbindung oder bei einem Anfragelimit bleibt das Spie
 benutzbar. Spielernamen, Steam-IDs, Lobbykennungen, lokale Pfade, Berichte und
 Spielstände werden nicht mitgeschickt.
 
-0.7.2: [Downloads und Versionshinweise](https://github.com/GaleR-Tech/FTN-Coop/releases/tag/v0.7.2). Der Internetbetrieb mit
+0.7.3: [Downloads und Versionshinweise](https://github.com/GaleR-Tech/Find-the-Needl-Demo-Multipalyer/releases/tag/v0.7.3). Der Internetbetrieb mit
 getrennten Steam-Konten bleibt unbestätigt.
 
 ### Speichern und Verlassen
